@@ -23,12 +23,12 @@
   letter-spacing: 0.02em;
   color: $--main-text-color;
   transition: color $--animation-duration $--timing-function;
-}
 
-.link-nav:hover,
-.link-nav:focus,
-.current {
-  color: $--accent-color;
+  &:hover,
+  &:focus,
+  .current {
+    color: $--accent-color;
+  }
 }
 
 .link-nav__menu {
@@ -78,20 +78,15 @@
   color: $--second-text-color;
   cursor: pointer;
   transition: color $--animation-duration $--timing-function;
+
+  &:hover,
+  &:focus {
+    color: $--accent-color;
+  }
 }
 
 .contact__item:not(:first-child) {
   margin-left: 50px;
-}
-
-.contacts__text:hover,
-.contacts__text:focus {
-  color: $--accent-color;
-}
-
-.contacts__text:hover,
-.contacts__text:focus {
-  fill: $--accent-color;
 }
 
 .contact__icons {

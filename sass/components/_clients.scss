@@ -28,14 +28,14 @@
   color: #afb1b8;
   transition: color $--animation-duration $--timing-function,
     border-color $--animation-duration $--timing-function;
+
+  &:hover,
+  &:focus {
+    color: $--accent-color;
+    border-color: $--accent-color;
+  }
 }
 
 .clients-logo {
   fill: currentColor;
-}
-
-.clients-item__link:hover,
-.clients-item__link:focus {
-  color: $--accent-color;
-  border-color: $--accent-color;
 }

@@ -174,8 +174,7 @@ img {
   transition: color 1000ms cubic-bezier(0.4, 0, 0.2, 1), background-color cubic-bezier(0.4, 0, 0.2, 1) 1000ms, box-shadow 1000ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filter-button:hover,
-.filter-button:focus {
+.filter-button:hover, .filter-button:focus {
   color: #ffffff;
   background-color: #2196f3;
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -212,8 +211,7 @@ img {
   transition: background-color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.main-button:focus,
-.main-button:hover {
+.main-button:focus, .main-button:hover {
   background-color: #188ce8;
 }
 
@@ -288,14 +286,13 @@ img {
   transition: color 1000ms cubic-bezier(0.4, 0, 0.2, 1), border-color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-logo {
-  fill: currentColor;
-}
-
-.clients-item__link:hover,
-.clients-item__link:focus {
+.clients-item__link:hover, .clients-item__link:focus {
   color: #2196f3;
   border-color: #2196f3;
+}
+
+.clients-logo {
+  fill: currentColor;
 }
 
 .footer {
@@ -324,9 +321,8 @@ img {
   transition: color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-text-footer:hover,
-.contact-text-footer:focus,
-.current {
+.contact-text-footer:hover, .contact-text-footer:focus,
+.contact-text-footer .current {
   color: #2196f3;
 }
 
@@ -389,8 +385,7 @@ img {
   transition: background-color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-link:hover,
-.footer-social-link:focus {
+.footer-social-link:hover, .footer-social-link:focus {
   fill: #ffffff;
   background-color: #2196f3;
 }
@@ -454,11 +449,8 @@ img {
   transition: border-color cubic-bezier(0.4, 0, 0.2, 1) 1000ms;
 }
 
-.subscribe-input:hover {
+.subscribe-input:hover, .subscribe-input:focus {
   border-color: #2196f3;
-}
-
-.subscribe-input:focus {
   border-color: #2196f3;
 }
 
@@ -561,8 +553,7 @@ img {
   transition: border-color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-user-text:focus,
-.modal-user-text:hover {
+.modal-user-text:focus, .modal-user-text:hover {
   border-color: #2196f3;
 }
 
@@ -644,8 +635,7 @@ img {
   transition: fill 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal__close:hover,
-.modal__close:focus {
+.modal__close:hover, .modal__close:focus {
   fill: #2196f3;
 }
 
@@ -662,8 +652,7 @@ img {
   transition: fill cubic-bezier(0.4, 0, 0.2, 1) 1000ms;
 }
 
-.modal__icon:focus,
-.modal__icon:hover {
+.modal__icon:focus, .modal__icon:hover {
   fill: #2196f3;
 }
 
@@ -682,8 +671,7 @@ img {
   transition: border-color cubic-bezier(0.4, 0, 0.2, 1) 1000ms;
 }
 
-.modal__input:hover,
-.modal__input:focus {
+.modal__input:hover, .modal__input:focus {
   border-color: #2196f3;
 }
 
@@ -763,9 +751,8 @@ img {
   transition: color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-nav:hover,
-.link-nav:focus,
-.current {
+.link-nav:hover, .link-nav:focus,
+.link-nav .current {
   color: #2196f3;
 }
 
@@ -830,18 +817,12 @@ img {
   transition: color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact__item:not(:first-child) {
-  margin-left: 50px;
-}
-
-.contacts__text:hover,
-.contacts__text:focus {
+.contacts__text:hover, .contacts__text:focus {
   color: #2196f3;
 }
 
-.contacts__text:hover,
-.contacts__text:focus {
-  fill: #2196f3;
+.contact__item:not(:first-child) {
+  margin-left: 50px;
 }
 
 .contact__icons {
@@ -922,8 +903,7 @@ img {
   transition: background-color 1000ms cubic-bezier(0.4, 0, 0.2, 1), color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-social-link:hover,
-.team-social-link:focus {
+.team-social-link:hover, .team-social-link:focus {
   color: #ffffff;
   background-color: #2196f3;
 }
@@ -1028,8 +1008,7 @@ img {
   transition: box-shadow cubic-bezier(0.4, 0, 0.2, 1) 1000ms, -webkit-box-shadow cubic-bezier(0.4, 0, 0.2, 1) 1000ms;
 }
 
-.our-product-link:hover,
-.our-product-link:focus {
+.our-product-link:hover, .our-product-link:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }

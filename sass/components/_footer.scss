@@ -21,11 +21,12 @@
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   transition: color $--animation-duration $--timing-function;
-}
-.contact-text-footer:hover,
-.contact-text-footer:focus,
-.current {
-  color: $--accent-color;
+
+  &:hover,
+  &:focus,
+  .current {
+    color: $--accent-color;
+  }
 }
 
 .footer-link:not(:last-child) {
@@ -70,11 +71,12 @@
   background-color: rgba(255, 255, 255, 0.1);
   color: $--second-button-text-color;
   transition: background-color $--animation-duration $--timing-function;
-}
-.footer-social-link:hover,
-.footer-social-link:focus {
-  fill: $--second-button-text-color;
-  background-color: $--accent-color;
+
+  &:hover,
+  &:focus {
+    fill: $--second-button-text-color;
+    background-color: $--accent-color;
+  }
 }
 
 .footer-subscribe {
@@ -119,10 +121,10 @@
   padding: 15px 16px;
   color: $--second-button-text-color;
   transition: border-color $--timing-function $--animation-duration;
-}
-.subscribe-input:hover {
-  border-color: $--accent-color;
-}
-.subscribe-input:focus {
-  border-color: $--accent-color;
+
+  &:hover,
+  &:focus {
+    border-color: $--accent-color;
+    border-color: $--accent-color;
+  }
 }
